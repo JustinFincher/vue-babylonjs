@@ -16,6 +16,9 @@ The BabylonJS [guide to loading files](https://doc.babylonjs.com/how_to/load_fro
 </Scene>
 ```
 
+#### Events
+ - `asset` - When the asset object is available
+
 #### Props
 
  - `src` (String) - url path to an asset file of type  `gltf`, `obj`, `stl`, or `babylon`

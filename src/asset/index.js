@@ -32,6 +32,7 @@ export default {
         this.$replace(assetContainer.meshes[0]);
       }
       assetContainer.addAllToScene();
+      this.$emit('asset', this);
     },
   },
 
